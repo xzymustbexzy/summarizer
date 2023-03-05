@@ -1,5 +1,5 @@
 # summarizer
-Summarize the content of PDF with power of GPT-3.5
+Summarize the content of PDF with power of GPT
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
@@ -10,7 +10,7 @@ Summarizer is an open-source document summarization tool powered by GPT. With th
 ## Install
 Download the github repo
 ```shell
-git clone https://github.com/xzymustbexzy/summarizer.git
+export OPENAI_API_KEY=xxxxxxxxxxxx
 ```
 
 Install the required dependencies
@@ -19,6 +19,11 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Set your openai key
+```shell
+cd src
+python run.py --file example.pdf
+```
 Run the script
 ```shell
 cd src
