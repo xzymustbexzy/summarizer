@@ -10,7 +10,7 @@ Summarizer is an open-source document summarization tool powered by GPT. With th
 ## Install
 Download the github repo
 ```shell
-export OPENAI_API_KEY=xxxxxxxxxxxx
+git clone https://github.com/xzymustbexzy/summarizer.git
 ```
 
 Install the required dependencies
@@ -21,8 +21,7 @@ pip install -r requirements.txt
 ## Usage
 Set your openai key
 ```shell
-cd src
-python run.py --file example.pdf
+export OPENAI_API_KEY=xxxxxxxxxxxx
 ```
 Run the script
 ```shell
