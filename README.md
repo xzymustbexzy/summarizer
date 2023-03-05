@@ -30,10 +30,10 @@ python run.py --file example.pdf
 ```
 
 ## Todo
-[] multiple pages support
-[] extremely long content support
-[] Multi-language support
-[] url input
-[] multi-modal support(image)
-[] multiple file types support(Word, Excel, image, html etc.)
-[] more generation controllability
+- [] multiple pages support
+- [] extremely long content support
+- [] Multi-language support
+- [] url input
+- [] multi-modal support(image)
+- [] multiple file types support(Word, Excel, image, html etc.)
+- [] more generation controllability
